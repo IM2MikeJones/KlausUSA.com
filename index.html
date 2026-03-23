@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klaus Multiparking - Automated Parking Systems</title>
+  <meta name="description" content="Klaus Multiparking - Global Leader in Automated Parking Systems. 30,000+ installations worldwide. Systems you can trust from people you can trust.">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/faviconV2.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Saira:wght@300;400;500;600;700&family=Saira+SemiCondensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/material3-theme.css">
+</head>
+<body>
+  <!-- Material 3 Top App Bar -->
+  <header class="m3-top-app-bar">
+    <div class="m3-top-app-bar__container">
+      <a href="index.html" class="m3-top-app-bar__logo">
+        <img src="assets/img/logo-klaus-multiparking.svg" alt="Klaus Multiparking">
+      </a>
+      <button class="m3-top-app-bar__menu-button" aria-label="Open menu" id="menu-toggle">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12h18M3 6h18M3 18h18"/>
+        </svg>
+      </button>
+      <nav class="m3-navigation-desktop">
+        <ul class="m3-navigation">
+          <li class="m3-navigation__item">
+            <a href="index.html" class="m3-navigation__link m3-navigation__link--active">About</a>
+          </li>
+          <li class="m3-navigation__item">
+            <a href="products.html" class="m3-navigation__link">Products</a>
+          </li>
+          <li class="m3-navigation__item">
+            <a href="service.html" class="m3-navigation__link">Service</a>
+          </li>
+          <li class="m3-navigation__item">
+            <a href="company.html" class="m3-navigation__link">Company</a>
+          </li>
+          <li class="m3-navigation__item">
+            <a href="projects.html" class="m3-navigation__link">Projects</a>
+          </li>
+          <li class="m3-navigation__item">
+            <a href="FAQ.html" class="m3-navigation__link">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="https://my-site-103786-100042.square.site/" class="m3-button m3-button--filled m3-button-desktop">
+        <span>Get Parts</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+        </svg>
+      </a>
+    </div>
+    <!-- Mobile Navigation Drawer -->
+    <nav class="m3-navigation-drawer" id="mobile-menu">
+      <div class="m3-navigation-drawer__header">
+        <button class="m3-navigation-drawer__close" aria-label="Close menu" id="menu-close">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="m3-navigation-drawer__list">
+        <li class="m3-navigation-drawer__item">
+          <a href="index.html" class="m3-navigation-drawer__link m3-navigation-drawer__link--active">About</a>
+        </li>
+        <li class="m3-navigation-drawer__item">
+          <a href="products.html" class="m3-navigation-drawer__link">Products</a>
+        </li>
+        <li class="m3-navigation-drawer__item">
+          <a href="service.html" class="m3-navigation-drawer__link">Service</a>
+        </li>
+        <li class="m3-navigation-drawer__item">
+          <a href="company.html" class="m3-navigation-drawer__link">Company</a>
+        </li>
+        <li class="m3-navigation-drawer__item">
+          <a href="projects.html" class="m3-navigation-drawer__link">Projects</a>
+        </li>
+        <li class="m3-navigation-drawer__item">
+          <a href="FAQ.html" class="m3-navigation-drawer__link">FAQ</a>
+        </li>
+        <li class="m3-navigation-drawer__item">
+          <a href="https://my-site-103786-100042.square.site/" class="m3-button m3-button--filled m3-button-mobile">Get Parts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="m3-navigation-drawer__scrim" id="menu-scrim"></div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="m3-landing-hero">
+    <div class="m3-landing-hero__image">
+      <img src="assets/img/KlausFactory.jpg" alt="Klaus Automated Parking Systems">
+    </div>
+    <div class="m3-landing-hero__content">
+      <div class="m3-landing-hero__container">
+        <h1 class="m3-landing-hero__title">KLAUS AUTOMATED PARKING SYSTEMS</h1>
+        <p class="m3-landing-hero__tagline">SYSTEMS YOU CAN TRUST<br>FROM PEOPLE YOU CAN TRUST</p>
+        <div class="m3-landing-hero__actions">
+          <a href="tel:+19252842092" class="m3-button m3-button--filled m3-button--hero">
+            <span>Contact Sales</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </a>
+          <a href="products.html" class="m3-button m3-button--outlined m3-button--hero">
+            <span>Explore Products</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Section -->
+  <section class="m3-landing-stats">
+    <div class="m3-landing-stats__container">
+      <div class="m3-stat-card">
+        <div class="m3-stat-card__number">30,000+</div>
+        <div class="m3-stat-card__label">Installations Worldwide</div>
+        <div class="m3-stat-card__description">Global leader since 1964</div>
+      </div>
+      <div class="m3-stat-card">
+        <div class="m3-stat-card__number">800,000+</div>
+        <div class="m3-stat-card__label">Parking Spaces</div>
+        <div class="m3-stat-card__description">Across six continents</div>
+      </div>
+      <div class="m3-stat-card">
+        <div class="m3-stat-card__number">360+</div>
+        <div class="m3-stat-card__label">California Installations</div>
+        <div class="m3-stat-card__description">Since 1996</div>
+      </div>
+      <div class="m3-stat-card">
+        <div class="m3-stat-card__number">10,000+</div>
+        <div class="m3-stat-card__label">Daily Active Stalls</div>
+        <div class="m3-stat-card__description">In California</div>
+      </div>
+      <div class="m3-stat-card">
+        <div class="m3-stat-card__number">30×</div>
+        <div class="m3-stat-card__label">Greater Reliability</div>
+        <div class="m3-stat-card__description">Than chain-driven systems</div>
+      </div>
+      <div class="m3-stat-card">
+        <div class="m3-stat-card__number">38</div>
+        <div class="m3-stat-card__label">Years of Operation</div>
+        <div class="m3-stat-card__description">in California</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Benefits Section -->
+  <section class="m3-landing-benefits">
+    <div class="m3-landing-benefits__container">
+      <h2 class="m3-landing-section-title">Why Klaus Multiparking?</h2>
+      <div class="m3-landing-benefits__grid">
+        <div class="m3-benefit-card m3-benefit-card--clickable" id="superior-reliability-card">
+          <div class="m3-benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h3 class="m3-benefit-card__title">Superior Reliability</h3>
+          <p class="m3-benefit-card__description">30× greater MTBF than chain-driven systems. Advanced hydraulic technology with 200× fewer wear points delivers exceptional uptime.</p>
+        </div>
+        <div class="m3-benefit-card m3-benefit-card--clickable" id="engineered-safety-card">
+          <div class="m3-benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3 class="m3-benefit-card__title">Engineered Safety</h3>
+          <p class="m3-benefit-card__description">Hydraulic systems with redundant safety locks and fail-safes. Flawless safety record across thousands of daily-use installations.</p>
+        </div>
+        <div class="m3-benefit-card m3-benefit-card--clickable" id="lifetime-support-card">
+          <div class="m3-benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h3 class="m3-benefit-card__title">Lifetime Support</h3>
+          <p class="m3-benefit-card__description">Direct, in-house support team with 24-hour call line. Local service vans and spare parts inventory for rapid response.</p>
+        </div>
+        <div class="m3-benefit-card m3-benefit-card--clickable" id="proven-technology-card">
+          <div class="m3-benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </div>
+          <h3 class="m3-benefit-card__title">Proven Technology</h3>
+          <p class="m3-benefit-card__description">60+ years of engineering excellence. From Munich Olympics 1972 to today—proven performance across thousands of installations.</p>
+        </div>
+        <div class="m3-benefit-card m3-benefit-card--clickable" id="local-expertise-card">
+          <div class="m3-benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h3 class="m3-benefit-card__title">Local Expertise</h3>
+          <p class="m3-benefit-card__description">Trusted partner on the West Coast since 1996. Deep knowledge of local codes, design constraints, and best practices.</p>
+        </div>
+        <div class="m3-benefit-card m3-benefit-card--clickable" id="design-assistance-card">
+          <div class="m3-benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="9" y1="9" x2="15" y2="9"></line>
+              <line x1="9" y1="15" x2="15" y2="15"></line>
+              <line x1="9" y1="3" x2="9" y2="21"></line>
+            </svg>
+          </div>
+          <h3 class="m3-benefit-card__title">Design Assistance</h3>
+          <p class="m3-benefit-card__description">We specialize in maximizing parking in the minimum space and are experienced with the real-world challenges of parking design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Showcase Section -->
+  <section class="m3-landing-products">
+    <div class="m3-landing-products__container">
+      <h2 class="m3-landing-section-title">Our Product Line</h2>
+      <p class="m3-landing-products__subtitle">Versatile solutions for every parking challenge</p>
+      <div class="m3-landing-products__grid">
+        <article class="m3-landing-product-card">
+          <a href="trendvario.html" class="m3-landing-product-card__link">
+            <div class="m3-landing-product-card__image">
+              <img src="assets/img/trendvario%206300.jpg" alt="TrendVario">
+            </div>
+            <div class="m3-landing-product-card__content">
+              <img src="assets/img/TrendVarioBanner.svg" alt="TrendVario" class="m3-landing-product-card__logo">
+              <p class="m3-landing-product-card__description">Independent driver access with multiple levels & rows for highest parking density.</p>
+            </div>
+          </a>
+        </article>
+        <article class="m3-landing-product-card">
+          <a href="parkboardPQ.html" class="m3-landing-product-card__link">
+            <div class="m3-landing-product-card__image">
+              <img src="assets/img/NEU_schemaclip-parkboard-pq.gif" alt="ParkBoard">
+            </div>
+            <div class="m3-landing-product-card__content">
+              <img src="assets/img/ParkBoardBanner.svg" alt="ParkBoard" class="m3-landing-product-card__logo">
+              <p class="m3-landing-product-card__description">Multiple rows without stacking, pits, or high ceilings.</p>
+            </div>
+          </a>
+        </article>
+        <article class="m3-landing-product-card">
+          <a href="MultiBase.html" class="m3-landing-product-card__link">
+            <div class="m3-landing-product-card__image">
+              <img src="assets/img/NEU_schemaclip-multibase-2072i.gif" alt="MultiBase">
+            </div>
+            <div class="m3-landing-product-card__content">
+              <img src="assets/img/MultiBaseBanner.svg" alt="MultiBase" class="m3-landing-product-card__logo">
+              <p class="m3-landing-product-card__description">Highest density per square foot with maximum throughput.</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="m3-landing-products__actions">
+        <a href="products.html" class="m3-button m3-button--filled">
+          <span>View All Products</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology Advantage Section -->
+  <section class="m3-landing-technology">
+    <div class="m3-landing-technology__container">
+      <div class="m3-landing-technology__content">
+        <h2 class="m3-landing-section-title">Advanced Hydraulic Technology</h2>
+        <p class="m3-landing-technology__lead">While hydraulic motion isn't new, it's far more advanced than chain-and-sprocket mechanisms. Klaus systems use hydraulics as the primary method of motion transfer, providing far greater reliability and safety at no additional cost.</p>
+        <div class="m3-landing-technology__features">
+          <div class="m3-feature-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <div>
+              <strong>200× Fewer Wear Points</strong>
+              <p>Hydraulic systems dramatically reduce component wear throughout the entire parking system.</p>
+            </div>
+          </div>
+          <div class="m3-feature-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <div>
+              <strong>Redundant Safety Systems</strong>
+              <p>Automatic secondary safety locks and fail-safes built into every hydraulic cylinder.</p>
+            </div>
+          </div>
+          <div class="m3-feature-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <div>
+              <strong>10,170 Hour MTBF</strong>
+              <p>Mean Time Between Failures that's 30× better than traditional chain & sprocket systems.</p>
+            </div>
+          </div>
+        </div>
+        <div class="m3-landing-technology__actions">
+          <a href="#" class="m3-button m3-button--text" id="learn-more-technology-button">
+            Learn More About Technology
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="m3-landing-technology__image">
+        <img src="assets/img/servicevan.jpg" alt="Klaus Service Van">
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust & Recognition Section -->
+  <section class="m3-landing-trust">
+    <div class="m3-landing-trust__container">
+      <h2 class="m3-landing-section-title">Trusted by Industry Leaders</h2>
+      <div class="m3-landing-trust__content">
+        <div class="m3-trust-card">
+          <h3>Proven Track Record</h3>
+          <p>Over six decades of innovation, from the Munich Olympic Games in 1972 to today's most challenging projects. Klaus has earned the confidence of architects, developers, and property owners worldwide.</p>
+        </div>
+        <div class="m3-trust-card">
+          <h3>Local Commitment</h3>
+          <p>West Coast partner since 1996. We've weathered economic cycles, supported hundreds of successful installations, and delivered true long-term value. Our team is local, our track record speaks for itself.</p>
+        </div>
+        <div class="m3-trust-card">
+          <h3>Global Expertise</h3>
+          <p>Headquartered in Germany with installations across six continents. One of the industry's largest teams of engineers, manufacturing specialists, and support staff—delivering systems as large as 1,400 stalls on a single project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="m3-landing-cta">
+    <div class="m3-landing-cta__container">
+      <h2 class="m3-landing-cta__title">Ready to Transform Your Parking?</h2>
+      <p class="m3-landing-cta__description">Partner with Klaus for automated parking solutions that deliver superior reliability, safety, and long-term value.</p>
+      <div class="m3-landing-cta__actions">
+        <a href="products.html" class="m3-button m3-button--outlined m3-button--cta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="9" y1="3" x2="9" y2="21"></line>
+          </svg>
+          <span>Select Products</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-footer Image -->
+  <img class="m3-footer__pre-image" src="assets/img/P&Scropped.svg" alt="">
+
+  <!-- Material 3 Footer -->
+  <footer class="m3-footer">
+    <div class="m3-footer__container">
+      <div class="m3-footer__section m3-footer__contacts">
+        <div>
+          <span class="fa fa-map-marker m3-footer__contacts-icon"></span>
+          <p class="fw-semibold">
+            <span class="fw-semibold new-line-span">2930 Domingo Ave. #201</span> Berkeley, California 94705
+          </p>
+        </div>
+        <div>
+          <i class="fa fa-phone m3-footer__contacts-icon"></i>
+          <a href="tel:+19252842092,,1" target="_blank">+1.925.284.2092</a>
+        </div>
+        <div>
+          <i class="fa fa-envelope m3-footer__contacts-icon"></i>
+          <p><a href="mailto:sales@KlausUSA.com" target="_blank">sales@KlausUSA.com</a></p>
+        </div>
+      </div>
+      <div class="m3-footer__section m3-footer__navigation">
+        <p class="m3-footer__links">
+          <a href="index.html">About</a><strong> ·&nbsp;</strong>
+          <a href="products.html">Products</a><strong>&nbsp;·&nbsp;</strong>
+          <a href="service.html">Service</a><strong> · </strong>
+          <a href="company.html">Company</a><strong> · </strong>
+          <a href="projects.html">Projects</a><strong> · </strong>
+          <a href="FAQ.html">FAQ</a><strong> · </strong>
+          <a href="https://my-site-103786-100042.square.site/">Parts</a>
+        </p>
+        <a href="https://us.multiparking.com" class="m3-footer__logo">
+          <img src="assets/img/KLAUS%20SP%20Logo%20Neg%20CMYK.svg" alt="Klaus Multiparking">
+        </a>
+      </div>
+      <div class="m3-footer__section m3-footer__about">
+        <h4>Follow Us</h4>
+        <div class="m3-footer__social">
+          <a href="https://www.facebook.com/KLAUSMultiparking.de">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+            </svg>
+          </a>
+          <a href="https://x.com/i/flow/login?redirect_after_login=%2FKlaus_Multipark">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter-x">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/user/KlausMultiparking/playlists">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-youtube">
+              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z"></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/company/klaus-multiparking-gmbh/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-linkedin">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"></path>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/klaus.multiparking">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+            </svg>
+          </a>
+          <a href="company.html#environment">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-recycle">
+              <path d="M9.302 1.256a1.5 1.5 0 0 0-2.604 0l-1.704 2.98a.5.5 0 0 0 .869.497l1.703-2.981a.5.5 0 0 1 .868 0l2.54 4.444-1.256-.337a.5.5 0 1 0-.26.966l2.415.647a.5.5 0 0 0 .613-.353l.647-2.415a.5.5 0 1 0-.966-.259l-.333 1.242-2.532-4.431zM2.973 7.773l-1.255.337a.5.5 0 1 1-.26-.966l2.416-.647a.5.5 0 0 1 .612.353l.647 2.415a.5.5 0 0 1-.966.259l-.333-1.242-2.545 4.454a.5.5 0 0 0 .434.748H5a.5.5 0 0 1 0 1H1.723A1.5 1.5 0 0 1 .421 12.24l2.552-4.467zm10.89 1.463a.5.5 0 1 0-.868.496l1.716 3.004a.5.5 0 0 1-.434.748h-5.57l.647-.646a.5.5 0 1 0-.708-.707l-1.5 1.5a.498.498 0 0 0 0 .707l1.5 1.5a.5.5 0 1 0 .708-.707l-.647-.647h5.57a1.5 1.5 0 0 0 1.302-2.244l-1.716-3.004z"></path>
+            </svg>
+          </a>
+          <a href="https://productiq.ulprospector.com/en/profile/1849995/nitw.e255219?term=klaus%20multiparking&amp;page=1">
+            <img src="assets/img/UL%20Mark.svg" alt="UL Mark">
+          </a>
+          <a href="#">
+            <img src="assets/img/clipboard-image-1.png" alt="">
+          </a>
+        </div>
+        <div class="m3-footer__made-in-germany">
+          <a href="https://www.deutschland.de/en/topic/business/made-in-germany-where-it-comes-from-and-what-it-means">
+            <img src="assets/img/clipboard-image.png" alt="Made in Germany">
+          </a>
+        </div>
+        <div class="m3-footer__copyright">
+          <p>Klaus Multiparking Inc. © 2026</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Local Expertise Modal -->
+  <div class="m3-modal" id="local-expertise-modal">
+    <div class="m3-modal__scrim" id="local-expertise-modal-scrim"></div>
+    <div class="m3-modal__dialog">
+      <div class="m3-modal__header">
+        <h2 class="m3-modal__title">Local Expertise</h2>
+        <button class="m3-modal__close" id="local-expertise-modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="m3-modal__content">
+        <p>Klaus Multiparking has been a trusted partner on the West Coast since 1996, with over 360 installations and nearly 10,000 stalls in daily use across California. Our systems are built around advanced hydraulic technology, delivering significantly greater safety, reliability, and long-term performance than systems sourced from China, offering dramatically fewer failures and reduced maintenance.</p>
+        <p>With decades of experience navigating local codes, design constraints, and economic cycles, Klaus has earned the confidence of architects, developers, and property owners who need proven solutions that last. In a market where most suppliers are just getting started—and others have already come and gone—Klaus provides the engineering expertise, local knowledge, and long-term commitment that makes all the difference.</p>
+        <p>When you're selecting an automated parking system, you're not just choosing equipment—you're choosing a long-term partner. Klaus Multiparking has been designing, installing, and servicing parking systems in the Bay Area since 1996, and we're committed to supporting our systems for the life of your building.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proven Technology Modal -->
+  <div class="m3-modal" id="proven-technology-modal">
+    <div class="m3-modal__scrim" id="proven-technology-modal-scrim"></div>
+    <div class="m3-modal__dialog">
+      <div class="m3-modal__header">
+        <h2 class="m3-modal__title">Proven Technology</h2>
+        <button class="m3-modal__close" id="proven-technology-modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="m3-modal__content">
+        <p>Over the past decade, we've seen many competitors come and go. Companies like Space Savers, Swiss Park, Boomerang, and CityLift entered the market with big promises—but ultimately exited the business, leaving customers without support and systems without parts or service. In fact, Klaus has been called in to replace Chinese-made lifts from some of these defunct brands at locations in San Francisco due to ongoing safety, reliability, and operational concerns.</p>
+        <p>As an example, when CityLift ceased operations, they left multiple in-progress projects unfinished, even after collecting payment for the systems. Developers were left scrambling to find solutions and additional financing, often facing costly delays and difficult decisions about how to move forward.</p>
+        <p>Today, several new firms have popped-up offering the same Chinese-made machines, but most have only been in business for a year or two, have just a handful of installations. Some are even claiming credit for projects they didn't even do. Worse yet, these firms are repeating the same costly mistakes; installing systems with unreasonably tight vehicle clearances because the equipment they use fits smaller cars than Klaus systems do (within the same space).</p>
+        <p>In a market where many providers have struggled to deliver, Klaus has remained a consistent and reliable partner. Our long-standing presence and proven performance offer the assurance that your system will be supported—today and for years to come. Choosing the right partner from the start isn't just important. It's essential.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Engineered Safety Modal -->
+  <div class="m3-modal" id="engineered-safety-modal">
+    <div class="m3-modal__scrim" id="engineered-safety-modal-scrim"></div>
+    <div class="m3-modal__dialog">
+      <div class="m3-modal__header">
+        <h2 class="m3-modal__title">Engineered Safety</h2>
+        <button class="m3-modal__close" id="engineered-safety-modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="m3-modal__content">
+        <p>Safety isn't just a feature—it's foundational. At Klaus Multiparking, it's a core design principle built into every system we deliver.</p>
+        <p>Recent failures in the automated parking industry have raised serious concerns. Some systems have experienced catastrophic breakdowns, stranding vehicles and causing costly downtime. None of these incidents involved Klaus systems—and none used hydraulic actuation.</p>
+        <p>These failures were in chain-and-sprocket systems, which rely on numerous mechanical linkages that wear, stretch, or drift out of sync. With dozens, or even hundreds of failure points, a single issue can bring the entire system.</p>
+        <p>Klaus takes a fundamentally different approach. Our hydraulic systems are engineered for safety by design</p>
+        <ul>
+          <li>The use of hydraulics improves uptime by reducing wear points by more than 200x throughout Klaus parking systems.</li>
+          <li>Chain & Sprocket Systems require, on average, 30x more motors in a system. Unfortunately, this does not provide redundancy, but rather, increases downtime because any one motor failure prevents operation of the entire system.</li>
+          <li>Fewer components in Klaus Systems mean lower maintenance costs and reduced downtime over the system's lifetime.</li>
+        </ul>
+        <p>And safety extends beyond hardware. Our local, in-house support team—not third-party contractors—is trained and equipped to keep your system running safely and reliably. With thousands of daily-use stalls in real-world operation across the West Coast and a flawless safety record, Klaus systems are proven in the real world.</p>
+        <p>In an industry where some providers disappear after installation—or worse, cut corners that lead to system failure—Klaus delivers the safety, stability, and long-term accountability that matters.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lifetime Support Modal -->
+  <div class="m3-modal" id="lifetime-support-modal">
+    <div class="m3-modal__scrim" id="lifetime-support-modal-scrim"></div>
+    <div class="m3-modal__dialog">
+      <div class="m3-modal__header">
+        <h2 class="m3-modal__title">Lifetime Support</h2>
+        <button class="m3-modal__close" id="lifetime-support-modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="m3-modal__content">
+        <p>No matter how advanced a parking system may be, its real-world success depends on the quality of its support. That's why at Klaus Multiparking, we've built a service organization that leads the industry—because we know that a system is only as good as the team that stands behind it.</p>
+        <p>Our pricing includes everything needed to ensure a smooth, successful project: design assistance, full shop and as-built drawings, documentation, coordination with trades like electrical and fire suppression, training, signage, shipping, taxes, and one full year of support and maintenance. But it's our ongoing commitment after installation that truly sets us apart.</p>
+        <p>Klaus provides direct, in-house support—not outsourced third-party service. We have two Bay Area offices, three fully equipped service vans, and a 24-hour call line staffed by eight experienced, factory-trained technicians. Our team is focused on fast response times, minimizing downtime, and keeping systems running at peak performance. We also maintain a local spare parts inventory, allowing us to resolve issues quickly.</p>
+        <p>All Klaus employee/technicians are certified and continuously trained, staying up to date on the latest technologies and solutions. Our commitment to service doesn't end with installation—it continues for the life of your system. With Klaus, you're choosing not just a superior product, but a support team dedicated to your long-term success.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Design Assistance Modal -->
+  <div class="m3-modal" id="design-assistance-modal">
+    <div class="m3-modal__scrim" id="design-assistance-modal-scrim"></div>
+    <div class="m3-modal__dialog">
+      <div class="m3-modal__header">
+        <h2 class="m3-modal__title">Design Assistance</h2>
+        <button class="m3-modal__close" id="design-assistance-modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="m3-modal__content">
+        <p>At Klaus Multiparking, we believe that well-planned systems lead to successful projects—and that starts with early, thoughtful design. That's why we offer complimentary design assistance from the very beginning of your project, partnering with architects, developers, and consultants to integrate mechanical parking solutions that truly work.</p>
+        <p>Whether you're exploring conceptual feasibility or developing early design documents, our team brings decades of experience and deep technical insight to help guide your decisions. We provide:</p>
+        <ul>
+          <li>System layout and space planning</li>
+          <li>Equipment selection tailored to your project goals</li>
+          <li>Coordination guidance with structural, electrical, and fire suppression teams</li>
+          <li>Support with code compliance strategies</li>
+          <li>Continued collaboration throughout the design development process</li>
+        </ul>
+        <p>We specialize in maximizing parking in the minimum space and are experienced with the real-world challenges of parking design—oddly shaped sites, sloped parcels, shoring limitations, soil conditions, and more. With one of the most versatile product lines in the industry, Klaus can recommend the ideal system for each unique situation—ensuring it fits not only physically, but operationally and economically as well.</p>
+        <p>Our design assistance is always free. We encourage you to engage with us as early as possible—because the earlier we're involved, the more value we can deliver in terms of efficiency, cost-effectiveness, and long-term success.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Learn More About Technology Modal -->
+  <div class="m3-modal" id="learn-more-technology-modal">
+    <div class="m3-modal__scrim" id="learn-more-technology-modal-scrim"></div>
+    <div class="m3-modal__dialog">
+      <div class="m3-modal__header">
+        <h2 class="m3-modal__title">Advanced Hydraulic Technology</h2>
+        <button class="m3-modal__close" id="learn-more-technology-modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="m3-modal__content">
+        <p>All automated parking systems are powered by electric motors. Modern motors are very reliable, but the motion transfer method used in the system is of key importance. "Motion transfer" refers to how the physical movement from the electric motors is transferred to the parking platforms themselves. There are basically two methods:</p>
+        <h3>Motion Transfer Methods</h3>
+        <ul>
+          <li>Sprockets & Chains</li>
+          <li>Hydraulic Actuators</li>
+        </ul>
+        <p>While hydraulic motion isn't a new technology, it's certainly more modern than chain-and-sprocket mechanisms, which date back to the earliest industrial machinery.</p>
+        <p>Klaus has a wide product range, and while we do use both of these methods, virtually all Klaus systems use hydraulics as the primary method of motion transfer, because it provides far greater reliability and safety at no additional cost.</p>
+        <p>With safety and reliability as primary concerns, hydraulic systems simply can't be beat. Hydraulic motors are quiet and reliable. Platforms are guided by rails, and supported by hydraulic cylinders with redundant automatic secondary safety locks.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Superior Reliability Modal -->
+  <div class="m3-modal" id="superior-reliability-modal">
+    <div class="m3-modal__scrim" id="superior-reliability-modal-scrim"></div>
+    <div class="m3-modal__dialog">
+      <div class="m3-modal__header">
+        <h2 class="m3-modal__title">Superior Reliability</h2>
+        <button class="m3-modal__close" id="superior-reliability-modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="m3-modal__content">
+        <p>Hydraulic systems do require a higher level of engineering design expertise, this advanced engineering translates directly into superior reliability. Klaus Systems achieve a system-wide Mean Time Between Failures (MTBF) of approximately 10,170 hours, compared to just 370 hours for traditional Chain & Sprocket Systems. The difference is clear:</p>
+        <ul>
+          <li>The use of hydraulics improves uptime by reducing wear points by more than 200x throughout Klaus parking systems.</li>
+          <li>Chain & Sprocket Systems require, on average, 30x more motors in a system. Unfortunately, this does not provide redundancy, but rather, increases downtime because any one motor failure prevents operation of the entire system.</li>
+          <li>Fewer components in Klaus Systems mean lower maintenance costs and reduced downtime over the system's lifetime.</li>
+        </ul>
+        <p>The total system MTBF is calculated based on how many individual components can fail. Since any single failure stops the entire system, the more failure points there are, the lower the system-wide MTBF.</p>
+        <table class="m3-modal__table">
+          <thead>
+            <tr>
+              <th>System Type</th>
+              <th>Electric Motors</th>
+              <th>Powerpack & Lines</th>
+              <th>Chains & Sprockets</th>
+              <th>Total MTBF</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Klaus Hydraulic Systems</strong></td>
+              <td>50,000 hours</td>
+              <td>30,000 hours</td>
+              <td>N/A</td>
+              <td>≈ 18,750 hours</td>
+            </tr>
+            <tr>
+              <td><strong>Chain & Sprocket Systems</strong></td>
+              <td>1,667 hours *</td>
+              <td>N/A</td>
+              <td>667 hrs</td>
+              <td>≈ 476 hours</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="m3-modal__table-note">* Lower MTBF due to motor dependencies that do not exist in hydraulic systems.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/material3-components.js"></script>
+</body>
+</html>
+
+
