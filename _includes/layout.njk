@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "head.njk" %}
+<body>
+{% include "header.njk" %}
+{% block content %}{% endblock %}
+{% include "footer.njk" %}
+{% block afterContent %}{% endblock %}
+  <script src="/js/material3-components.js"></script>
+{% if videoHover %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const videoContainer = document.querySelector('.m3-product-detail__video-container');
+      const video = document.querySelector('.m3-product-detail__video');
+      if (videoContainer && video) {
+        video.removeAttribute('controls');
+        videoContainer.addEventListener('mouseenter', function() {
+          video.setAttribute('controls', 'controls');
+        });
+        videoContainer.addEventListener('mouseleave', function() {
+          video.removeAttribute('controls');
+        });
+      }
+    });
+  </script>
+{% endif %}
+{% if projectsLoader %}
+  <script src="/js/projects-loader.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const projectsLoader = new ProjectsLoader();
+      projectsLoader.loadProjects();
+    });
+  </script>
+{% endif %}
+{% if projectLoader %}
+  <script src="/js/project-loader.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const currentPage = window.location.pathname.split('/').pop() || 'tenThousand.html';
+      const projectFolder = currentPage.replace('.html', '');
+      const projectLoader = new ProjectLoader(projectFolder);
+      projectLoader.loadProject();
+    });
+  </script>
+{% endif %}
+{% block extraScripts %}{% endblock %}
+</body>
+</html>
