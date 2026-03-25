@@ -1,0 +1,18 @@
+---
+description: Run Eleventy build after every file change
+alwaysApply: true
+---
+
+# Eleventy Build Requirement
+
+This project uses Eleventy (11ty) as a static site generator. Source files (`.html`, `_includes/*.njk`) are templates — the browser-ready output lives in `_site/`.
+
+**After every change, no matter how minor, run:**
+
+```bash
+npm run build
+```
+
+This applies to changes to any `.html` page, any `_includes/*.njk` partial, `.eleventy.js`, or `_data/` files. Do not skip the build step even for single-line edits.
+
+CSS (`css/`) and JS (`js/`) files are passthrough-copied and do not require a rebuild, but running `npm run build` after those changes is still fine.
