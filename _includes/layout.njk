@@ -6,7 +6,7 @@
 {% block content %}{% endblock %}
 {% include "footer.njk" %}
 {% block afterContent %}{% endblock %}
-  <script src="/js/material3-components.js"></script>
+  <script src="js/material3-components.js"></script>
 {% if videoHover %}
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -25,7 +25,7 @@
   </script>
 {% endif %}
 {% if projectsLoader %}
-  <script src="/js/projects-loader.js"></script>
+  <script src="js/projects-loader.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const projectsLoader = new ProjectsLoader();
@@ -34,7 +34,7 @@
   </script>
 {% endif %}
 {% if projectLoader %}
-  <script src="/js/project-loader.js"></script>
+  <script src="js/project-loader.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const currentPage = window.location.pathname.split('/').pop() || 'tenThousand.html';
